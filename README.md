@@ -1,13 +1,4 @@
-# GO1 ROS 2 Workspace
-
-ROS 2 workspace for Unitree GO1 simulation and custom control packages.
-
-## Project structure
-
-- `src/` — source packages (your real code)
-- `build/` — colcon build output (generated)
-- `install/` — colcon install output (generated)
-- `log/` — colcon logs (generated)
+ROS2 workspace for Unitree GO1 simulation and custom control packages.
 
 Main packages currently in this workspace include:
 
@@ -22,7 +13,7 @@ Main packages currently in this workspace include:
 ## Requirements
 
 - Ubuntu (tested on Linux)
-- ROS 2 (Humble/Iron or your installed distro)
+- ROS2 (Humble installed distro)
 - `colcon`
 - `rosdep`
 - Python 3
@@ -178,21 +169,6 @@ source /home/ducbao/go1_ws/install/setup.bash
 - The Sliding Mode Control (SMC) logic in `my_robot_controller` is original work by this project author.
 - Please keep upstream licenses and credit notices when reusing or redistributing.
 
-## Git workflow (daily)
-
-```bash
-git status
-git add .
-git commit -m "Describe your change"
-git push
-```
-
-## Notes
-
-- Do not commit `build/`, `install/`, `log/` folders.
-- Keep all source code and package files under `src/`.
-- Add package-specific documentation inside each package folder when needed.
 
 ## License
 
-Choose and add your project license (MIT, Apache-2.0, etc.).
