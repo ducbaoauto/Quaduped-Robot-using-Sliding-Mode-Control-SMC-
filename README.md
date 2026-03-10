@@ -1,3 +1,5 @@
+# GO1 ROS2 Workspace
+
 ROS2 workspace for Unitree GO1 simulation and custom control packages.
 
 Main packages currently in this workspace include:
@@ -163,6 +165,12 @@ source /opt/ros/humble/setup.bash
 source /home/ducbao/go1_ws/install/setup.bash
 ```
 
+## Visualization
+
+The file `visualize_smc_quadruped.png` is a result figure for the SMC tracking experiment. It gives a quick visual summary of trajectory-tracking behavior and is useful for reports, README previews, and performance comparison between controller variants.
+
+![SMC quadruped visualization](visualize_smc_quadruped.png)
+
 ## Attribution
 
 - This workspace includes and adapts open-source ROS 2 / Unitree simulation and support packages.
@@ -171,4 +179,6 @@ source /home/ducbao/go1_ws/install/setup.bash
 
 
 ## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
