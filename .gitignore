@@ -1,0 +1,33 @@
+# ROS 2 / colcon build artifacts
+build/
+install/
+log/
+
+# Nested workspace artifacts
+src/build/
+src/install/
+src/log/
+
+# Python
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE/editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
