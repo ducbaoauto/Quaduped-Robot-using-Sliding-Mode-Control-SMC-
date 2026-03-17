@@ -1,10 +1,25 @@
-# GO1 ROS2 Workspace
+# Sliding Mode Control for Trajectory Tracking on Unitree GO1 (ROS2)
 
-ROS2 workspace for Unitree GO1 simulation and custom control packages.
+This project implements a Sliding Mode Controller for trajectory tracking of the Unitree GO1 quadruped robot in simulation using ROS2.
 
-Main packages currently in this workspace include:
+The goal of this project is to study robust nonlinear control for legged robot navigation and evaluate the performance of SMC in tracking reference trajectories.
 
-- `my_robot_controller`
+The simulation is built using ROS2 Humble and Gazebo.
+
+Main features:
+
+- Quadruped robot simulation (Unitree GO1)
+- Sliding Mode Control (SMC) for trajectory tracking
+- Visualization of tracking performance
+- Modular ROS2 controller nodes
+
+---
+
+## Workspace Packages
+
+Main packages currently included:
+
+- `my_robot_controller` – custom SMC controller implementation
 - `unitree_ros2_sim`
 - `go1_description`
 - `go1_gazebo`
@@ -12,24 +27,24 @@ Main packages currently in this workspace include:
 - `ros2_unitree_legged_control`
 - `ros2_unitree_legged_msgs`
 
-## Requirements
+---
 
-- Ubuntu (tested on Linux)
-- ROS2 (Humble installed distro)
+# Requirements
+
+- Ubuntu 22.04
+- ROS2 Humble
+- Gazebo
 - `colcon`
 - `rosdep`
 - Python 3
 
-## Quick start
+---
 
-### 1) Clone
+# Installation
 
-```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
-```
+## 1) Clone repository
 
-### 2) Install dependencies
+## 2) Install dependencies
 
 ```bash
 sudo rosdep init || true
@@ -173,7 +188,7 @@ The file `visualize_smc_quadruped.png` is a result figure for the SMC tracking e
 
 ## Attribution
 
-- This workspace includes and adapts open-source ROS 2 / Unitree simulation and support packages.
+- This workspace includes and adapts open-source ROS2 simulation and support packages.
 - The Sliding Mode Control (SMC) logic in `my_robot_controller` is original work by this project author.
 - Please keep upstream licenses and credit notices when reusing or redistributing.
 
