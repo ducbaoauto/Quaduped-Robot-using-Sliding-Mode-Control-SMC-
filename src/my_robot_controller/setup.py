@@ -26,7 +26,11 @@ setup(
         'console_scripts': [
             'smc_tracking_node = my_robot_controller.smc_tracking:main',
             'visualizer_node = my_robot_controller.visualizer_node:main',
-            'smc_square_node = my_robot_controller.smc_square:main',     
+            'smc_square_node = my_robot_controller.smc_square_node:main',
+            'smc_figure8_node = my_robot_controller.smc_figure8_node:main',
+            'smc_rounded_square_node = my_robot_controller.smc_rounded_square_node:main',
+            'smc_superellipse_node = my_robot_controller.smc_superellipse_node:main',
+            'data_logger_node = my_robot_controller.data_logger_node:main',
         ],
     },
 )

@@ -4,6 +4,8 @@ This project implements a Sliding Mode Controller for trajectory tracking of the
 
 The goal of this project is to study robust nonlinear control for legged robot navigation and evaluate the performance of SMC in tracking reference trajectories.
 
+**Last updated:** 2026-04-10
+
 The simulation is built using ROS2 Humble and Gazebo.
 
 Main features:
