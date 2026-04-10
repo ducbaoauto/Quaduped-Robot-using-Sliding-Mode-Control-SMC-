@@ -6,6 +6,8 @@ The goal of this project is to study robust nonlinear control for legged robot n
 
 **Last updated:** 2026-04-10
 
+**Today update:** Synced latest SMC evaluation outputs and added project summary documentation.
+
 The simulation is built using ROS2 Humble and Gazebo.
 
 Main features:
